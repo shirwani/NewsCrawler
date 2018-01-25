@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>786 News</title>
+        <link rel="stylesheet" type="text/css" href="./style.css">
+        <script src="./news.js"></script>
+        <script src="./utils.js"></script>
+        <script src="./ads.js"></script>
+
+        <!-- Word cloud -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+        <script src="http://code.jquery.com/ui/1.10.0/jquery-ui.js"></script>
+        <script type="text/javascript" src="../../jqcloud/dist/jqcloud.min.js"></script>
+        <link rel="stylesheet" href="../../jqcloud/dist/jqcloud.min.css" type="text/css" media="screen">
+
+        <!-- FAVICON -->
+        <link rel="apple-touch-icon" sizes="57x57" href="./pics/favicon.ico/apple-icon-57x57.png">
+        <link rel="apple-touch-icon" sizes="60x60" href="./pics/favicon.ico/apple-icon-60x60.png">
+        <link rel="apple-touch-icon" sizes="72x72" href="./pics/favicon.ico/apple-icon-72x72.png">
+        <link rel="apple-touch-icon" sizes="76x76" href="./pics/favicon.ico/apple-icon-76x76.png">
+        <link rel="apple-touch-icon" sizes="114x114" href="./pics/favicon.ico/apple-icon-114x114.png">
+        <link rel="apple-touch-icon" sizes="120x120" href="./pics/favicon.ico/apple-icon-120x120.png">
+        <link rel="apple-touch-icon" sizes="144x144" href="./pics/favicon.ico/apple-icon-144x144.png">
+        <link rel="apple-touch-icon" sizes="152x152" href="./pics/favicon.ico/apple-icon-152x152.png">
+        <link rel="apple-touch-icon" sizes="180x180" href="./pics/favicon.ico/apple-icon-180x180.png">
+        <link rel="icon" type="image/png" sizes="192x192"  href="./pics/favicon.ico/android-icon-192x192.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="./pics/favicon.ico/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="96x96" href="./pics/favicon.ico/favicon-96x96.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="./pics/favicon.ico/favicon-16x16.png">
+        <link rel="manifest" href="./pics/favicon.ico/manifest.json">
+        <meta name="msapplication-TileColor" content="#ffffff">
+        <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+        <meta name="theme-color" content="#ffffff">
+    </head>
+    <body>
+        <center>
+            <table id="Content">
+                <!-- HEADER -->
+                <tr>
+                    <td align="right" colspan="5">
+                        <div id="PageHeader"></div>
+                        <script>
+                            createPageHeader()
+                        </script>
+                    </td>
+                </tr>
+                <!-- MENU -->
+                <tr>
+                    <td colspan="5">
+                        <div id="MainMenu"></div>
+                        <script>
+                            createMainMenu("news")
+                        </script>
+                    </td>
+                </tr>
+                <!-- MAIN CONTENT -->
+                <tr>
+                    <td colspan="5">
+                        <table width="100%" cellpadding="0" cellspacing="0">
+                            <tr>
+                                <td id="TopStories"></td>
+                                <td width="20"></td>
+                                <td>
+                                    <table width="300" cellpadding="0" cellspacing="0" width="100%">
+                                        <tr>
+                                            <td id="TodayStories"></td>
+                                        </tr>
+                                        <tr>
+                                            <td id="Keywords"></td>
+                                        </tr>
+                                        <tr>
+                                            <td id="CausesColumn"></td>
+                                        </tr>
+                                        <tr>
+                                            <td height="20"></td>
+                                        </tr>
+                                        <tr>
+                                            <td id="AdColumn" bgcolor=white  align="center">
+                                                <script>insertRightMarginBannerAds()</script>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td colspan="5" id="AdditionalStories"></td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+                <!-- FOOTER -->
+                <tr>
+                    <td align="center">
+                        <div id="PageFooter"></div>
+                        <script>
+                            createPageFooter()
+                        </script>
+                    </td>
+                </tr>
+            </table>
+            <script>createNewspaper()</script>
+        </center>
+    </body>
+</html>

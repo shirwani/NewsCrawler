@@ -1,0 +1,313 @@
+body{
+    font-family:        Arial,serif;
+    font-size:          13px;
+}
+hr{
+    border:             0;
+    height:             1px;
+    background-color:   #cccccc;
+}
+td{
+    vertical-align:     top;
+    horizontal-align:   left;
+    font-size:          13px;
+}
+
+#Content{
+    padding:            0px;
+    spacing:            0px;
+    width:              1000px;
+}
+#datetime{
+    width:              333px;
+    text-align:         left;
+    font-size:          13px;
+    font-weight:        bold;
+    font-family:        Optima, "Trebuchet MS", sans-serif;
+    color:              #eeeeee;
+    vertical-align:     middle;
+}
+span.SectionHeader{
+    font-size:          22px;
+    font-family:        Optima, "Trebuchet MS", sans-serif;
+    font-weight:        bold;
+    color:              #424949;
+}
+
+/*** Menu Bar ***/
+#MenuTable{
+    width:              100%;
+    background:         linear-gradient(-90deg, #FFFFFF, #229954);
+}
+td.Menu{
+    list-style-type:    none;
+    margin:             0;
+    padding:            0;
+    overflow:           hidden;
+    font-size:          14px;
+}
+li.Menu{
+    float:              left;
+
+}
+span.Menu{
+    display:            block;
+    color:              #ffffff;
+    text-decoration:    none;
+    #background:         linear-gradient(-90deg, #117A65, #0E6655);
+    text-align:         left;
+    padding:            10px 16px;
+}
+a.Menu{
+    display:            block;
+    color:              #ffffff;
+    text-decoration:    none;
+    text-align:         center;
+    padding:            10px 16px;
+}
+a.Menu:hover {
+    text-decoration:    underline;
+
+}
+
+/*** Top Stories ***/
+table.TopStories{
+    font-family:        Optima, "Trebuchet MS", sans-serif;
+
+}
+table.InnerTopStories{
+    font-size:          20px;
+
+}
+table.TopStoriesTableMore{
+    width:              100%;
+    padding:            1px;
+    background-color:   #ffffff;
+    border:             2px;
+    border-spacing:     0px;
+    border-collapse:    separate;
+    font-family:        Optima, "Trebuchet MS", sans-serif;
+}
+table.InnerTopStoriesTableMore{
+    width:              100%;
+    padding:            1px;
+    #background-color:   #eeeeee;
+    background:         linear-gradient(-90deg, #ffffff, #eeeeee);
+    border:             1px;
+    border-spacing:     0px;
+    border-collapse:    separate;
+    font-family:        Optima, "Trebuchet MS", sans-serif;
+}
+table.InnerTopStoriesTableMore:hover{
+    #background-color:   #fefefe;
+    background:         linear-gradient(-90deg, #ffffff, #eeeeee);
+
+}
+img.TopStoriesImage{
+    width:              150px;
+    height:             100px;
+}
+div.TopStoriesSummary{
+    font-family:        Optima, "Trebuchet MS", sans-serif;
+    font-size:          14px;
+}
+span.TopStoriesPublisherAndDate{
+    font-size:          12px;
+    font-weight:        bold;
+    color:              #666666;
+}
+
+td.MoreMargin{
+    width:              1px;
+    background:         #ffffff;
+    background:         linear-gradient(-180deg, #45B39D, #E8F6F3);
+}
+span.MorePublisherAndDate{
+    font-size:          12px;
+    color:              #666666;
+}
+
+/*** Additional Stories ***/
+img.AdditionalTopImage{
+    width:              100px;
+    height:             70px;
+}
+div.AdditionalStoriesSummary{
+    font-family:        Optima, "Trebuchet MS", sans-serif;
+    font-size:          13px;
+}
+a.AdditionalStoryLink{
+    text-decoration:    none;
+    font-size:          18px;
+    font-weight:        bold;
+    color:              #1A5276;
+    font-family:        Optima, "Trebuchet MS", sans-serif;
+}
+a.AdditionalStoryLink:hover{
+    text-decoration:    underline;
+
+}
+a.AdditionalStoryLink:visited{
+    color:              990000;
+
+}
+
+/*** Story Link ***/
+a.StoryLink{
+    text-decoration:    none;
+    font-size:          20px;
+    font-weight:        bold;
+    color:              #1A5276;
+    font-family:        Optima, "Trebuchet MS", sans-serif;
+}
+a.StoryLink:hover{
+    text-decoration:    underline;
+
+}
+a.StoryLink:visited{
+    color:              990000;
+
+}
+a.StoryLinkMore{
+    text-decoration:    none;
+    font-size:          14px;
+    font-weight:        bold;
+    color:              #1A5276;
+    font-family:        Optima, "Trebuchet MS", sans-serif;
+}
+a.StoryLinkMore:hover{
+    text-decoration:    underline;
+
+}
+a.StoryLinkMore:visited{
+    color:              990000;
+
+}
+
+/*** Tags ***/
+span.Tags, span.TagsLatest{
+    font-weight:        bold;
+    color:              teal;
+    font-size:          13px;
+    font-family:        Optima, "Trebuchet MS", sans-serif;
+}
+span.Keywords{
+    font-size:          13px;
+    font-family:        Optima, "Trebuchet MS", sans-serif;
+}
+span.TagsMore{
+    color:              teal;
+    font-size:          13px;
+    font-family:        Optima, "Trebuchet MS", sans-serif;
+}
+span.KeywordsMore, span.KeywordsLatest{
+    font-size:          12px;
+    font-family:        Optima, "Trebuchet MS", sans-serif;
+    color:              #000000;
+}
+span.MoreFrom{
+    text-decoration:    none;
+    font-size:          13px;
+    font-weight:        bold;
+    color:              #1A5276;
+    font-family:        Optima, "Trebuchet MS", sans-serif;
+    cursor:             pointer;
+}
+span.MoreFrom:hover{
+    text-decoration:    underline;
+}
+
+/*** Latest Stories ***/
+table.LatestStories{
+    #width:              300px;
+    padding:            2px;
+    border-spacing:     1px;
+    border-color:       red;
+    background-color:   #EAEDED;
+    border-width:       1px;
+    border-collapse:    separate;
+    font-family:        Optima, "Trebuchet MS", sans-serif;
+}
+a.LatestStoryLink{
+    text-decoration:    none;
+    font-size:          16px;
+    font-weight:        bold;
+    color:              #1A5276;
+    font-family:        Optima, "Trebuchet MS", sans-serif;
+}
+a.LatestStoryLink:hover{
+    text-decoration:    underline;
+
+}
+a.LatestStoryLink:visited{
+    color:              990000;
+
+}
+span.LatestStoryPublisherAndDate{
+    font-size:          12px;
+    font-weight:        bold;
+    color:              #444444;
+}
+
+/*** Keyword Cloud ***/
+#KeywordCloud{
+    #width:              300px;
+    height:             300px;
+    background:         #EBEDEF;
+    border:             #bbbbcc 1px solid;
+}
+
+/*** Causes Column ***/
+#CausesColumn{
+    width:              220px;
+    background:         #ffffff;
+    vertical-align:     top;
+    horizontal-align:   left;
+}
+#CausesTable{
+    width:              100%;
+    background:         #ffffff;
+    padding:            1px;
+    spacing:            1px;
+}
+a.Causes{
+    text-decoration:    none;
+    font-size:          16px;
+    font-weight:        bold;
+    color:              #1A5276;
+    font-family:        Optima, "Trebuchet MS", sans-serif;
+}
+a.Causes:hover{
+    text-decoration:    underline;
+
+}
+a.Causes:visited{
+    color:              990000;
+
+}
+span.Causes{
+    font-size:          12px;
+    font-family:        Optima, "Trebuchet MS", sans-serif;
+}
+img.Causes{
+    width:              130px;
+    height:             40px;
+}
+td.Causes{
+    text-align:         center;
+    background:         linear-gradient(-180deg, #ffffff, #E5E8E8);
+    border-radius:      3px;
+}
+td.Causes:hover{
+    background:         linear-gradient(-180deg, #ffffff, #CCD1D1);
+
+}
+
+div.SocialMediaTopStory{
+    visibility:         hidden;
+    text-align:         right;
+}
+#HeaderSocialMediaLink{
+    text-align:         right;
+    vertical-align:     bottom;
+}

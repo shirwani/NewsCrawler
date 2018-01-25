@@ -1,0 +1,16 @@
+#!/bin/bash
+HOST='seveneightsix.info'
+USER='ftp_data@seveneightsix.info'
+PASSWD='qGz_~HdMQDHA'
+
+cd ../data
+
+ftp -n -i -v $HOST << EOT
+ascii
+user $USER $PASSWD
+prompt
+put ./_data.json
+bye
+EOT
+
+

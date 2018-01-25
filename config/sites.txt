@@ -1,0 +1,103 @@
+##############
+### TIER 1 ###
+##############
+
+ 1 | CNN                     | cnn                   | http://cnn.com
+ 1 | BBC                     | bbc                   | http://www.bbc.com
+ 1 | Time                    | time                  | http://www.time.com
+# 1 | NPR                     | npr                   | http://www.npr.org
+# 1 | Politico                | politico              | http://www.politico.com
+# 1 | Foreign Policy          | foreignpolicy         | http://foreignpolicy.com
+# 1 | Independent             | independent           | http://independent.co.uk
+# 1 | Fox News                | foxnews               | http://www.foxnews.com
+ 1 | Reuters                 | reuters               | http://www.reuters.com
+# 1 | Sky News                | sky                   | http://news.sky.com
+# 1 | MSN                     | msn                   | http://msn.com
+# 1 | Chicago Tribune         | chicagotribune        | http://www.chicagotribune.com
+# 1 | The Guardian            | guardiannews          | http://www.guardiannews.com
+# 1 | The Economist           | economist             | http://www.economist.com
+# 1 | The Wall Street Journal | wsj                   | http://wsj.com
+# 1 | The Huffigton Post      | huffingtonpost        | http://www.huffingtonpost.com
+# 1 | New York Times          | nytimes               | http://nytimes.com
+# 1 | NBC                     | nbcnews               | http://www.nbcnews.com
+# 1 | Brookings Institution   | brookings             | https://www.brookings.edu
+# 1 | ABC News                | abcnews               | http://abcnews.com
+# 1 | Newsweek                | newsweek              | http://www.newsweek.com
+# 1 | Houston Chronicle       | chron                 | http://www.chron.com
+# 1 | San Francisco Chronicle | sfgate                | http://www.sfgate.com
+# 1 | The Times               | thetimes              | https://www.thetimes.co.uk
+# 1 | The Globe and Mail      | theglobeandmail       | http://www.theglobeandmail.com
+# 1 | The Washington Post     | washingtonpost        | http://washingtonpost.com
+# 1 | New York Magazine       | nymag                 | http://nymag.com
+# 1 | AP                      | ap                    | http://bigstory.ap.org
+# 1 | U.S. News               | usnews                | http://www.usnews.com
+ 1 | Financial Times         | ft                    | http://www.ft.com
+# 1 | CBC                     | cbc                   | http://www.cbc.ca
+# 1 | CBS News                | cbsnews               | http://www.cbsnews.com
+# 1 | People                  | people                | http://www.people.com
+
+##############
+### TIER 2 ###
+##############
+
+# 2 | Chicago Sun Times       | suntimes              | http://www.suntimes.com
+# 2 | Miami Herald            | miamiherald           | http://www.miamiherald.com
+# 2 | New York Post           | nypost                | http://www.nypost.com
+# 2 | Breitbart               | breitbart             | http://breitbart.com
+# 2 | PBS                     | pbs                   | http://www.pbs.org
+# 2 | The Telegraph           | telegraph             | http://telegraph.co.uk
+# 2 | Mother Jones            | motherjones           | http://www.motherjones.com
+# 2 | Vice                    | vice                  | http://www.vice.com
+# 2 | The Daily World         | thedailyworld         | http://thedailyworld.com
+# 2 | Politifact              | politifact            | http://www.politifact.com
+# 2 | L.A. Times              | latimes               | http://www.latimes.com
+# 2 | The Heritage Foundation | heritage              | http://heritage.org
+# 2 | Slate                   | slate                 | http://www.slate.com
+
+##############
+### TIER 3 ###
+##############
+
+# 3 | Religion News Service   | religionnews          | http://www.religionnews.com
+# 3 | Sun Sentinal            | sun-sentinel          | http://www.sun-sentinel.com
+# 3 | The Cypress Times       | thecypresstimes       | http://thecypresstimes.com
+# 3 | The Seattle Times       | seattletimes          | http://seattletimes.com
+# 3 | Seattle PI              | seattlepi             | http://seattlepi.com
+# 3 | National Enquirer       | nationalenquirer      | http://www.nationalenquirer.com
+# 3 | Town hall               | townhall              | http://townhall.com
+# 3 | NY Daily News           | nydailynews           | http://www.nydailynews.com
+# 3 | The Daily Star          | thedailystar          | http://thedailystar.com
+# 3 | C-SPAN                  | c-span                | http://www.c-span.org
+# 3 | The Daily Review        | thedailyreview        | http://thedailyreview.com
+# 3 | Inquirer                | inquirer              | http://inquirer.net
+# 3 | The Daily Times         | thedailytimes         | http://thedailytimes.com
+# 3 | Mashable                | mashable              | http://mashable.com
+# 3 | Washington Examiner     | washingtonexaminer    | http://washingtonexaminer.com
+# 3 | New Republic            | newrepublic           | http://www.newrepublic.com
+# 3 | Observer Politics       | politicker            | http://politicker.com
+# 3 | The Daily Reporter      | thedailyreporter      | http://thedailyreporter.com
+# 3 | Think Progress          | thinkprogress         | http://thinkprogress.org
+# 3 | The Daily Beast         | thedailybeast         | http://thedailybeast.com
+# 3 | Medium                  | medium                | http://medium.com
+# 3 | The Chronicle           | thechronicle          | http://thechronicle.com.au
+# 3 | RealClear politics      | realclearpolitics     | http://www.realclearpolitics.com
+# 3 | RedState                | redstate              | http://www.redstate.com
+# 3 | CBN                     | cbn                   | http://cbn.com
+# 3 | Gawker                  | gawker                | http://gawker.com
+# 3 | Times of India          | indiatimes            | http://timesofindia.indiatimes.com
+# 3 | Mirror			        | mirror	            | http://www.mirror.co.uk
+
+#########################
+### LOW BANG-FOR-BUCK ###
+#########################
+# | The Atlantic            | theatlantic           | http://theatlantic.com
+# | BuzzFeed                | buzzfeed              | http://www.buzzfeed.com
+# | Daily Mail              | dailymail             | http://www.dailymail.co.uk
+
+######################
+### ERRORS PARSING ###
+######################
+# | The Daily Journal       | thedailyjournal       | http://thedailyjournal.com
+# | USA Today               | usatoday              | http://usatoday.com
+# | The Citizen             | thecitizen            | http://thecitizen.com
+# | Al-Jazeera              | aljazeera             | http://www.aljazeera.com
